@@ -1,8 +1,44 @@
 #include <Arduino.h>
+/**
+ * @file main.ino
+ * @brief Embedded Obstacle Detection System using IR Sensor
+ * @author YOUR_NAME
+ * @date YYYY-MM-DD
+ *
+ * @details
+ * Reads digital input from IR sensor
+ * and detects obstacle presence.
+ */
+
+ // TODO 1:
+ // Define IR sensor digital pin (Use pin 2)
+
+ // TODO 2:
+ // Create variable to store sensor state
+
 void setup() {
-// write your initialization code here
+
+    // TODO 3:
+    // Initialize Serial communication (9600 baud rate)
+
+    // TODO 4:
+    // Configure IR pin as INPUT
+
+    // TODO 5:
+    // Print system initialization message
 }
 
 void loop() {
-// write your code here
+
+    // TODO 6:
+    // Read digital value from IR sensor
+
+    // TODO 7:
+    // If obstacle detected
+    //     Print "Obstacle Detected"
+    // Else
+    //     Print "No Obstacle"
+
+    // TODO 8:
+    // Add small delay (200–500ms)
 }
